@@ -1,0 +1,16 @@
+Package: ISBDZDL
+Type: Package
+Title: An R Package Demo
+Version: 0.1.0
+Description: This is a package for generating mixture-Gaussian or mixture-t
+    random variables/random vectors.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    MASS (>= 7.3-51.4)
+Depends: R (>= 3.6.0)
+Authors@R: person("Delin", "Zhao", email = "zhaodelin971229@gmail.com",
+  role = c("aut", "cre"))
+URL: https://github.com/delin1997/ISBDZDL/
+BugReports: https://github.com/delin1997/ISBDZDL/issues
