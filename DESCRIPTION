@@ -1,7 +1,7 @@
 Package: ISBDZDL
 Type: Package
 Title: An R Package Demo
-Version: 0.1.0
+Version: 0.0.0.9000
 Description: This is a package for generating mixture-Gaussian or mixture-t
     random variables/random vectors.
 License: What license is it under?
