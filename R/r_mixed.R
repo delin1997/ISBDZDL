@@ -60,9 +60,9 @@ r_gaussian_mixed <- function(n = 100, mu, sigma, weight, tag = FALSE) {
   return(r_g_m)
 }
 
-#' @rdname r_mixed
-#' @param df degree of freedom for t-distribution
 
+#' @param df degree of freedom for t-distribution
+#' @rdname r_mixed
 r_t_mixed <- function(n = 100, sigma, df, mu, weight, tag = FALSE) {
   r <- runif(n, 0, 1)
   c.weight <- cumsum(weight)
